@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: white
+}
+
+.buttons {
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.floor-plan {
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.uu {
+    max-width: 15%;
+    max-height: 15%
+    float: left
+}
+#floorImage {
+    max-width: 100%;
+    display: none;
+}
+h2
+{
+    background-color: #80c342;
+    border-radius: 10px; /* Устанавливаем радиус закругления */
+    color: white
+}
+@media (max-width: 400px) {
+    button {
+        font-size: 10px;
+    }
+    div {
+        width: 21rem;	height: 33rem;
+        background: #D3D3D3;
+
+        border: 3px solid #80c342;
+        border-radius: 10px;
+
+   }
+    .displayed {
+        margin-left: 4rem
+    }
+}
+@media (min-width: 401px) and (max-width: 768px) {
+    button {
+        font-size: 12px;
+    }
+    div {
+        width: 25rem;	height: 40rem;
+        background: #D3D3D3;
+        border: 3px solid #80c342;
+        border-radius: 10px;
+        
+
+   }
+    .displayed {
+        margin-left: 6rem
+    }
+    nav ul {
+                flex-direction: row; /* Выстраиваем элементы горизонтально */
+            }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    button {
+        font-size: 16px;
+    }
+    div {
+        width: 50rem;	height: 40rem;
+        background: #D3D3D3	;
+        border: 3px solid #80c342;
+        border-radius: 10px;
+
+   }
+   .displayed {
+   margin-left: 12rem}
+}
+
+@media (min-width: 1025px) {
+    button {
+        font-size: 18px;
+    }
+    div {
+        width: 60rem;	height: 45rem;
+        background: #D3D3D3	;
+        border: 3px solid #80c342;
+        border-radius: 10px;
+   }
+   .displayed {
+   margin-left: 16rem}
+}
